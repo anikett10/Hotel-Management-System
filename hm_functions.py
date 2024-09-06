@@ -5,7 +5,6 @@ from matplotlib.figure import Figure
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import matplotlib.pyplot as plt
 from datetime import datetime
-
 def create_database():
     conn = sqlite3.connect("restaurant.db")
     cursor = conn.cursor()
