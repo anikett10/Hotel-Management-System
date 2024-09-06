@@ -32,7 +32,6 @@ def create_database():
         conn.commit()
 
     conn.close()
-
 def populate_menu_combobox(menu_combobox):
     conn = sqlite3.connect("restaurant.db")
     cursor = conn.cursor()
